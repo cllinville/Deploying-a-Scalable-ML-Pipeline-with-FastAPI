@@ -80,7 +80,7 @@ def save_model(model, path):
         Path to save pickle file.
     """
     # implement the function
-    joblib.dumb(model, path)
+    joblib.dump(model, path)
 
 
 def load_model(path):
